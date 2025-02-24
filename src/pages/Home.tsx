@@ -55,7 +55,7 @@ const Home = () => {
           <p className="text-white px-2 py-3 text-sm md:text-base">
           Experience a fully decentralized platform with no admin control, where all income is automatically distributed through smart contracts. Transparent, secure, and fair – our system empowers you to grow your network and earn in real time without intermediaries. Join today and take control of your financial future!          </p>
           <div className="flex w-full justify-center gap-3 py-3">
-            <button onClick={goDashboard} className="text-primary border-2 scale-[1.01] rounded-full px-8 py-2 border-primary">Enter App</button>
+            <button onClick={goDashboard} className="text-white border-2 scale-[1.01] rounded-full px-8 py-2 border-white">Enter App</button>
           </div>
         </div>
 
@@ -79,7 +79,7 @@ const Home = () => {
 
         {/* ========= FOOTER ======== */}
         <div className="flex w-full text-center absolute bottom-0 left-0 justify-center">
-          <p className="text-primary text-sm">&copy; {new Date().getFullYear()} Rich 5 World. All rights reserved.</p>
+          <p className="text-primary text-sm">&copy; {new Date().getFullYear()} BitLand. All rights reserved.</p>
         </div>
       </div>
 
